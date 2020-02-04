@@ -208,11 +208,99 @@ line-height: 15px;
   	justify-content: center;
 }
 
-#hero p 
-{
-	line-height: 35px;
-	text-align: left;
+#hero {
+	width: 886px;
+	justify-content: center;
 }
+
+
+
+#beerTaste 
+{
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 60px;
+}
+
+/* left and rights are backwards*/
+
+#rightTaste {
+	font-family: Helvetica, Arial, sans-serif;
+ 	width: 232px;
+	margin-top: 5px
+}
+
+#rightTaste h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 65px;
+	font-weight: 400;
+	color: salmon;
+	line-height: 100px;
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+
+#rightTaste h2:hover {
+	letter-spacing: 10px;
+}
+
+#rightTaste h2 a {
+	text-decoration: none;
+}
+#leftTaste {
+	font-family: Helvetica, Arial, sans-serif;
+ 	width: 232px;
+	margin-top: 5px
+}
+
+
+#leftTaste h2 {
+	font-family:'Martel Sans', sans-serif;
+	text-align: right;
+	font-size: 65px;
+	font-weight: 400;
+	color: salmon;
+	line-height: 100px;
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+
+#leftTaste h2:hover {
+	letter-spacing: 10px;
+}
+/*This isn't taking the link decoration off of my text and I'm not sure why*/
+#leftTaste h2 a {
+	text-decoration: none;
+}
+.promoTease {
+	display: block;
+	font-size: 40px;
+	color: #333;
+	line-height: 75px;
+}
+
+.promoTease2 {
+	display: block;
+	font-size: 30px;
+	color: #333;
+	line-height: 75px;
+}
+
+.beerImg {
+	width: 146px;
+	height: 299px;
+	margin-left: 0;
+	margin-right: 60px;
+}
+
 
 #map 
 {
@@ -220,58 +308,21 @@ line-height: 15px;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
 	padding-left: 30px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: center;
+  	position: relative;
+  	text-align: center;
+  	color: white;
 }
 
-#map p 
-{
-	line-height: 35px;
-	text-align: left;
+.texton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-#beerTaste 
-{
-	margin-top: 40px;
-	display: flex;
-	flex-direction: row;
-  	justify-content: space-between;
-	border-bottom: solid 1px #DDD;
-	padding-bottom: 40px;
-}
-
-
-.hero {
-	width: 886px;
-	height: 267px;
-	background-color: black;
-} 
-	
-.rightTaste {
-	width: 232px;
-	height: 299px;
-	background-color: black;
-}
-
-.leftTaste {
-	width: 232px;
-	height: 299px;
-	background-color: black;
-}
-
-.beerImg {
-	width: 146px;
-	height: 299px;
-	background-color: black;
-}
-
-.map {
-	width: 886px;
-	height: 267px;
-	background-color: black;
-} 
-
+ .italyText {
+ 	font-weight: 700;
+ 	letter-spacing: 10px;
+ }
 /* History */
 
 #timeLine1, #timeLine2, #timeLine3
