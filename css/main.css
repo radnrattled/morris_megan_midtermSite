@@ -1,0 +1,335 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div,p,body,header,footer,section,article,nav 
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+}
+
+a:link, a:visited 
+{ 
+ 	text-decoration:none; 	
+}
+
+a:hover, a:active 
+{ 
+	text-decoration:none; 
+}
+
+.hidden {
+	display: none;
+}
+
+/* Main header */
+#topBar
+{
+	background-color: black;
+	height: 20px;
+}
+
+#siteContainer 
+{
+	margin: 0 auto;
+	width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#mainHeader
+{
+	margin-top: 40px;
+	padding-bottom: 5px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+}
+
+#mainLogo {
+font-family:'Martel Sans', sans-serif;
+	width: 140px;
+	margin-top: 5px
+}
+ #mainLogo h1 {
+ 	font-family:'Martel Sans', sans-serif;
+	font-size: 34px;
+	color: salmon;
+	line-height: 25px;
+ }
+#logoPeroni {
+display: block;
+font-size: 16px;
+color: #333;
+letter-spacing: -1px;
+line-height: 20px;
+}
+
+#mainNav {
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li {
+	display: inline;
+	font-size: 15px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+
+#mainNav ul li a {
+	color: #666;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+#mainNav ul li a:hover {
+color: #333;
+	border-bottom: solid 3px salmon;
+	border-top: solid 3px salmon;
+	padding: 5px;
+
+}
+
+.mainNav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.socials {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 50px;
+}
+
+		
+
+/*main footer*/
+
+#mainFooter
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+	border-bottom: solid 1px #DDD;
+}
+
+#footerNav {
+	text-transform: uppercase;
+	margin-top: 20px;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#footerNav ul li {
+	display: inline;
+	font-size: 12px;
+	font-weight: 600;
+	margin-right: 20px;
+}
+
+#footerNav ul li a {
+	color: #666;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+}
+
+#footerNav ul li a:hover {
+	color: #333;
+	padding: 5px;
+
+}
+
+#MADD {
+ 	font-family: Helvetica, Arial, sans-serif;
+ 	width: 150px;
+	margin-top: 5px
+}
+
+#MADD h3 {
+	font-family:'Martel Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: salmon;
+	line-height: 15px;
+}
+
+#aboutalcohol {
+display: block;
+font-size: 14px;
+color: #333;
+letter-spacing: -1px;
+line-height: 15px;
+}
+
+.copyright {
+	font-weight: 100;
+	font-size: 12px;
+}
+
+.footerSocials {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+/* Index */
+
+#hero 
+{
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: center;
+}
+
+#hero p 
+{
+	line-height: 35px;
+	text-align: left;
+}
+
+#map 
+{
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	padding-left: 30px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: center;
+}
+
+#map p 
+{
+	line-height: 35px;
+	text-align: left;
+}
+
+#beerTaste 
+{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+}
+
+
+.hero {
+	width: 886px;
+	height: 267px;
+	background-color: black;
+} 
+	
+.rightTaste {
+	width: 232px;
+	height: 299px;
+	background-color: black;
+}
+
+.leftTaste {
+	width: 232px;
+	height: 299px;
+	background-color: black;
+}
+
+.beerImg {
+	width: 146px;
+	height: 299px;
+	background-color: black;
+}
+
+.map {
+	width: 886px;
+	height: 267px;
+	background-color: black;
+} 
+
+/* History */
+
+#timeLine1, #timeLine2, #timeLine3
+{
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+}
+
+.promoText {
+	width: 540px;
+	height: 266px;
+	background-color: black;
+}
+
+.promoImg {
+	width: 310px;
+	height: 266px;
+	background-color: black;
+}
+
+/* The Bottle */
+
+.columncon {
+
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: column;
+  	justify-content: space-between;
+
+}
+
+#rowcon {
+	margin-top: 40px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-around;
+}
+
+.smallbox {
+	margin-bottom: 20px;
+	width: 210px;
+	height: 131px;
+	background-color: black;
+}
+
+.largebox {
+	margin-bottom: 20px;
+	width: 210px;
+	height: 213px;
+	background-color: black;
+}
+
+.bottle {
+	justify-content: center;
+}
