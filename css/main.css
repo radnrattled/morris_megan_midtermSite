@@ -261,7 +261,7 @@ line-height: 15px;
 
 
 #leftTaste h2 {
-	font-family:'Martel Sans', sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	text-align: right;
 	font-size: 65px;
 	font-weight: 400;
@@ -337,10 +337,21 @@ line-height: 15px;
 
 .promoText {
 	width: 500px;
-	height: 266px;
-	background-color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 200;
+	letter-spacing: .25px;
+	line-height: 16px;
 }
 
+.timelineTitle{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+	letter-spacing: 10px;
+	line-height: 24px;
+	color: grey;
+}
 .promoImg {
 	
 }
