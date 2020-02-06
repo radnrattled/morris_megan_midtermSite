@@ -310,7 +310,7 @@ line-height: 15px;
 	padding-left: 30px;
   	position: relative;
   	text-align: center;
-  	color: white;
+  	color: grey;
 }
 
 .texton {
@@ -325,7 +325,7 @@ line-height: 15px;
  }
 /* History */
 
-#timeLine1, #timeLine2, #timeLine3
+#timeLine, #timeLine1, #timeLine2, #timeLine3
 {
 	margin-top: 40px;
 	padding-bottom: 40px;
@@ -336,15 +336,13 @@ line-height: 15px;
 }
 
 .promoText {
-	width: 540px;
+	width: 500px;
 	height: 266px;
 	background-color: black;
 }
 
 .promoImg {
-	width: 310px;
-	height: 266px;
-	background-color: black;
+	
 }
 
 /* The Bottle */
