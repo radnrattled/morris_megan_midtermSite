@@ -352,11 +352,9 @@ line-height: 15px;
 	line-height: 24px;
 	color: grey;
 }
-.promoImg {
-	
-}
 
-/* The Bottle */
+
+/* The Bottle/Beer */
 
 .columncon {
 
@@ -377,19 +375,29 @@ line-height: 15px;
 }
 
 .smallbox {
-	margin-bottom: 20px;
-	width: 210px;
+	margin-bottom: 50px;
+	width: 280px;
 	height: 131px;
-	background-color: black;
 }
 
 .largebox {
 	margin-bottom: 20px;
-	width: 210px;
+	width: 280px;
 	height: 213px;
-	background-color: black;
 }
 
 .bottle {
 	justify-content: center;
+}
+
+.bottleTitles {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: 800;
+	letter-spacing: -1px;
+	line-height: 20px;
+	color: grey;
+}
+.smallbox, .largebox p {
+	letter-spacing: .5px;
 }
