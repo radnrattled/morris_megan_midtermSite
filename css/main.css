@@ -14,6 +14,7 @@ body
 	font-size: 16px;
 	letter-spacing: 1px;
 	margin: 0 auto;
+	color: grey;
 }
 
 a:link, a:visited 
@@ -56,19 +57,13 @@ a:hover, a:active
 }
 
 #mainLogo {
-font-family:'Martel Sans', sans-serif;
-	width: 140px;
-	
+	width: 140px;	
 }
- #mainLogo h1 {
- 	font-family:'Martel Sans', sans-serif;
-	font-size: 34px;
-	color: salmon;
-	line-height: 25px;
- }
+
 
 
 #mainNav {
+	font-family: 'Playfair Display SC', serif;
 	text-transform: uppercase;
 	margin-top: 0;
 	margin-left: 100px;
@@ -126,6 +121,7 @@ color: #333;
 }
 
 #footerNav {
+	font-family: 'Playfair Display SC', serif;
 	text-transform: uppercase;
 	margin-top: 20px;
 	margin-left: 100px;
@@ -156,13 +152,12 @@ color: #333;
 }
 
 #MADD {
- 	font-family: Helvetica, Arial, sans-serif;
  	width: 150px;
 	margin-top: 5px
 }
 
 #MADD h3 {
-	font-family:'Martel Sans', sans-serif;
+	font-family: 'Playfair Display SC', serif;
 	font-size: 16px;
 	font-weight: 400;
 	color: salmon;
@@ -170,6 +165,7 @@ color: #333;
 }
 
 #aboutalcohol {
+font-family: Helvetica, Arial, sans-serif;
 display: block;
 font-size: 14px;
 color: #333;
@@ -223,13 +219,12 @@ line-height: 15px;
 /* left and rights are backwards*/
 
 #rightTaste {
-	font-family: Helvetica, Arial, sans-serif;
  	width: 232px;
 	margin-top: 5px
 }
 
 #rightTaste h2 {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Playfair Display SC', serif;
 	font-size: 65px;
 	font-weight: 400;
 	color: salmon;
@@ -249,14 +244,13 @@ line-height: 15px;
 	text-decoration: none;
 }
 #leftTaste {
-	font-family: Helvetica, Arial, sans-serif;
  	width: 232px;
 	margin-top: 5px
 }
 
 
 #leftTaste h2 {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Playfair Display SC', serif;
 	text-align: right;
 	font-size: 65px;
 	font-weight: 400;
@@ -276,6 +270,7 @@ line-height: 15px;
 	text-decoration: none;
 }
 .promoTease {
+	font-family: 'Roboto Slab', serif;
 	display: block;
 	font-size: 40px;
 	color: #333;
@@ -283,6 +278,7 @@ line-height: 15px;
 }
 
 .promoTease2 {
+	font-family: 'Roboto Slab', serif;
 	display: block;
 	font-size: 30px;
 	color: #333;
@@ -315,6 +311,7 @@ line-height: 15px;
   transform: translate(-50%, -50%);
 }
  .italyText {
+ 	font-family: 'Playfair Display SC', serif;
  	font-weight: 700;
  	letter-spacing: 10px;
  }
@@ -347,7 +344,7 @@ line-height: 15px;
 }
 
 .timelineTitle{
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Roboto Slab', serif;
 	font-size: 24px;
 	font-weight: 800;
 	letter-spacing: 10px;
@@ -397,10 +394,10 @@ line-height: 15px;
 }
 
 .bottleTitles {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Playfair Display SC', serif;
 	font-size: 18px;
 	font-weight: 800;
-	letter-spacing: -1px;
+	letter-spacing: 0px;
 	line-height: 20px;
 	color: grey;
 }
@@ -434,6 +431,8 @@ line-height: 15px;
 }
 
 #terms {
+	font-family: Helvetica, Arial, sans-serif;
+	color: grey;
 	width: 300px;
 	margin-top: 30px;
 }
@@ -444,4 +443,64 @@ line-height: 15px;
 	margin-left: 50px;
 	width: 100px;
 	padding-bottom: 10px;
+}
+
+
+/* animation */
+
+/* This is calling on the animation web kit*/
+@-webkit-keyframes bounce {
+/* this is laying out specific keyframes that the img will move through, I changed the percentages 
+to customize my bounce*/
+  from,
+  20%,
+  55%,
+  97%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+20%,
+  25% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -50px, 0);
+    transform: translate3d(0, -50px, 0);
+  }
+
+  40%,
+  {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.2, 0.05, 0.2, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  60%,
+  {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0); /* these define the position relative to the original*/
+  }
+}
+
+
+/* defining the bounce class so I can attach it to my img. */
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+/* defining the animation class and duration */
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
