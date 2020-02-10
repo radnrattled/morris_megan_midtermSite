@@ -58,7 +58,7 @@ a:hover, a:active
 #mainLogo {
 font-family:'Martel Sans', sans-serif;
 	width: 140px;
-	margin-top: 5px
+	
 }
  #mainLogo h1 {
  	font-family:'Martel Sans', sans-serif;
@@ -66,13 +66,7 @@ font-family:'Martel Sans', sans-serif;
 	color: salmon;
 	line-height: 25px;
  }
-#logoPeroni {
-display: block;
-font-size: 16px;
-color: #333;
-letter-spacing: -1px;
-line-height: 20px;
-}
+
 
 #mainNav {
 	text-transform: uppercase;
@@ -211,6 +205,7 @@ line-height: 15px;
 #hero {
 	width: 886px;
 	justify-content: center;
+	opacity: 70%;
 }
 
 
@@ -322,6 +317,13 @@ line-height: 15px;
  .italyText {
  	font-weight: 700;
  	letter-spacing: 10px;
+ }
+
+ .imgOn {
+ position: absolute;
+  top: 310px;
+  left: 390px;
+  transform: translate(-50%, -50%);
  }
 /* History */
 
